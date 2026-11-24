@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "Imagine every book, letter and song in the world copied into one great hall you may visit through a small glowing window, where all men may shout at each other for free.";
+  "Picture a hall holding every book and letter ever written, lit by captured lightning, where any soul may read all of it - and most choose to quarrel about dinner.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
